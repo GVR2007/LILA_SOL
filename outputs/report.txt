@@ -1,0 +1,30 @@
+ISO 4406 Prototype -- Particle Count Report
+===========================================
+
+Calibration
+-----------
+Reference square side : 407.0 px
+Scale                 : 0.4914 um/pixel
+
+Objects
+-------
+Detected total        : 24
+Classified particles  : 14
+Classified bubbles    : 10 (discarded)
+
+Particle counts by size (cumulative, bubbles excluded)
+------------------------------------------------------
+>=   4.0 um : 14
+>=   6.0 um : 10
+>=  14.0 um : 5
+
+NOTE: counts are per image field of view. A true ISO 4406 code requires counts per mL, which needs the imaged fluid volume (film thickness x field area).
+
+Evaluation
+----------
+Detection recall : 100.0% (24/24 ground-truth objects found)
+Classification accuracy (matched): 100.0%
+
+class        precision    recall   support
+particle        100.0%    100.0%        14
+bubble          100.0%    100.0%        10
